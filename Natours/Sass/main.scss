@@ -10,8 +10,15 @@
 @import "./pages/home";
 
 @import "./components/button";
+@import "./components/card";
+@import "./components/popup";
+@import "./components/form";
 @import "./components/composition";
-@import "./components/_feature-box";
+@import "./components/feature-box";
+@import "./components/story";
+@import "./components/bg-video";
 
+@import "./layout/navigation";
 @import "./layout/header";
 @import "./layout/grid";
+@import "./layout/footer";
