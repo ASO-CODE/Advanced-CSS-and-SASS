@@ -96,34 +96,10 @@
     }
   }
 
-  @media only screen and (max-width: 56.25em) {
-    height: 60vh;
-    width: 80%;
-    position: fixed;
-    display: flex;
-
-    &__content {
-      @include absCenter;
-
-      width: 55%;
-      display: flex;
-      flex-wrap: wrap-reverse;
-    }
-
-    &__left {
-      flex: auto;
-      width: 100%;
-      display: block;
-    }
-
-    &__right {
-      flex: auto;
-      width: 100%;
-      display: block;
-    }
-
-    &__text {
-      display: none;
-    }
+  @include respond(tab-la) {
+    float: left;
+    position: relative;
+    width: 33.33333333%;
+    box-shadow: 0 1.5rem 3rem rgba($color-black, 0.2);
   }
 }
